@@ -1,5 +1,12 @@
 # Multi-Agent Research System
 
+## Overview
+
+A small multi-agent research example that runs two named tools in a fixed order: a researcher, then a critic. The pair runs behind a `POST /agent/run` endpoint, and a request to publish the result is refused. A versioned `/v1` ops API adds workspaces, tenant isolation, job approval and audit records.
+
+- **Built with:** Python, pytest, GitHub Actions
+- **Scope:** Local laptop lab with tests; it does not call a hosted model or publish anything.
+
 <!-- project-guide:start -->
 ## Project guide
 
